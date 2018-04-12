@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{9EA20544-22EA-4E60-8D7B-6A9CCFCF0AEA}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xero.Api.Example.MVC", "Xero.Api.Example.MVC\Xero.Api.Example.MVC.csproj", "{617E7D53-BB1B-4112-A630-52218FD1352A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xero.Api.Example.Mocks", "Xero.Api.Example.Mocks\Xero.Api.Example.Mocks.csproj", "{106797DD-3184-40F5-A68E-9258D904E169}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xero.Api.Notes", "Xero.Api.Notes\Xero.Api.Notes.csproj", "{7458F9C9-FD41-4EE5-A1E6-A5AB3DD20D96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{106797DD-3184-40F5-A68E-9258D904E169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{106797DD-3184-40F5-A68E-9258D904E169}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{106797DD-3184-40F5-A68E-9258D904E169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7458F9C9-FD41-4EE5-A1E6-A5AB3DD20D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7458F9C9-FD41-4EE5-A1E6-A5AB3DD20D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7458F9C9-FD41-4EE5-A1E6-A5AB3DD20D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7458F9C9-FD41-4EE5-A1E6-A5AB3DD20D96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
