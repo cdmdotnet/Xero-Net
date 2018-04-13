@@ -2,7 +2,7 @@
 <package>
 	<metadata>
 		<id>Xero.API.SDK.Notes</id>
-		<version>1.0</version>
+		<version>1.0.0.2</version>
 		<authors>cdmdotnet Limited</authors>
 		<description>This is a .NET SDK library, written in C#, that extends the core SDK to provide support for https://developer.xero.com/documentation/api/history-and-notes .</description>
 		<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -11,12 +11,13 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<copyright>Copyright 2018</copyright>
 		<dependencies>
-			<dependency id="Xero.API.SDK" version="2.0" />
+			<dependency id="Xero.API.SDK" version="[2.0,2.2.1.12]" />
 		</dependencies>
 		<releaseNotes>
 			Version 1.0
 
 			Added support for history and notes (https://developer.xero.com/documentation/api/history-and-notes) via an extension method. It has a low risk of breaking existing APIs (as it doesn't change them) and yet provides a wide range of support for existing and new API and objects.
+			Version 2.2.1.13 of the Xero.API.SDK now supports this, so this package is now designed for those requiring the functionality on earlier versions of the main SDK.
 		</releaseNotes>
 	</metadata>
 	<files>
